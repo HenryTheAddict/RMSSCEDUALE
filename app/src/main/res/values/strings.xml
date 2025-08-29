@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">RMS Schedule</string>
+    <string name="tile_label">School Schedule</string>
+    <string name="complication_label">School Schedule</string>
+    
+    <!-- Notification strings -->
+    <string name="notification_channel_name">School Schedule Alerts</string>
+    <string name="notification_channel_description">Notifications for upcoming period changes</string>
+    <string name="notification_period_ending_title">Period Ending Soon</string>
+    <string name="notification_period_ending_text">%1$s ends in %2$d minutes</string>
+    <string name="notification_next_period_title">Next Period Starting</string>
+    <string name="notification_next_period_text">%1$s starts in %2$d minutes</string>
+    
+    <!-- Settings strings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_display">Display</string>
+    <string name="settings_timing">Timing</string>
+    <string name="settings_enable_notifications">Enable Notifications</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_sound">Sound</string>
+    <string name="settings_show_seconds">Show Seconds</string>
+    <string name="settings_24_hour_format">24-Hour Format</string>
+    <string name="settings_reset_defaults">Reset to Defaults</string>
+    <string name="settings_end_time_seconds">End Time Seconds</string>
+    
+    <!-- Period names -->
+    <string name="period_arrival">Arrival</string>
+    <string name="period_homeroom">Homeroom</string>
+    <string name="period_1">Period 1</string>
+    <string name="period_2">Period 2</string>
+    <string name="period_3">Period 3</string>
+    <string name="period_lunch">Lunch</string>
+    <string name="period_advisory">Advisory</string>
+    <string name="period_4">Period 4</string>
+    <string name="period_device_drop">Device Drop Off</string>
+    
+    <!-- Status messages -->
+    <string name="status_before_school">School starts soon</string>
+    <string name="status_after_school">School day ended</string>
+    <string name="status_break_time">Break time</string>
+    <string name="status_loading">Loading...</string>
+    
+    <!-- Time format -->
+    <string name="time_remaining">remaining</string>
+    <string name="minutes_short">min</string>
+</resources>
