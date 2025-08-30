@@ -154,14 +154,14 @@ private fun createTileContent(
                     )
                     .addContent(
                         Text.Builder(context, "remaining")
-                            .setColor(argb(Colors.DEFAULT.onSurfaceVariant))
+                            .setColor(argb(Colors.DEFAULT.onSurface))
                             .setTypography(Typography.TYPOGRAPHY_CAPTION2)
                             .build()
                     )
                     .build()
             } else {
                 Text.Builder(context, getStatusText(scheduleStatus))
-                    .setColor(argb(Colors.DEFAULT.onSurfaceVariant))
+                    .setColor(argb(Colors.DEFAULT.onSurface))
                     .setTypography(Typography.TYPOGRAPHY_BODY2)
                     .setMaxLines(2)
                     .build()

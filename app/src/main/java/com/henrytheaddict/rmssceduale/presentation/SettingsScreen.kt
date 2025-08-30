@@ -245,7 +245,7 @@ fun SettingsSection(
         modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 4.dp),
-        backgroundColor = MaterialTheme.colors.surface
+        onClick = { }
     ) {
         Column(
             modifier = Modifier.padding(12.dp)

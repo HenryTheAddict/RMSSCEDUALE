@@ -1,7 +1,7 @@
 package com.henrytheaddict.rmssceduale.presentation
 
 import android.os.Bundle
-import androidx.activity.ComponentActivity
+import androidx.fragment.app.FragmentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.foundation.background
@@ -28,7 +28,7 @@ import com.henrytheaddict.rmssceduale.presentation.theme.RMSSCEDUALETheme
 import com.henrytheaddict.rmssceduale.service.ScheduleTimeService
 import com.henrytheaddict.rmssceduale.service.ScheduleMonitorService
 
-class MainActivity : ComponentActivity(), AmbientModeSupport.AmbientCallbackProvider {
+class MainActivity : FragmentActivity(), AmbientModeSupport.AmbientCallbackProvider {
     
     private val viewModel: MainViewModel by viewModels()
     private lateinit var ambientController: AmbientModeSupport.AmbientController
